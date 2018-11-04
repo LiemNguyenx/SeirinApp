@@ -1,0 +1,14 @@
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Persistence\bin\Debug\netcoreapp2.1\Seirin.Persistence.deps.json
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Persistence\bin\Debug\netcoreapp2.1\Seirin.Persistence.dll
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Persistence\obj\Debug\netcoreapp2.1\Seirin.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Persistence\obj\Debug\netcoreapp2.1\Seirin.Persistence.AssemblyInfoInputs.cache
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Persistence\obj\Debug\netcoreapp2.1\Seirin.Persistence.AssemblyInfo.cs
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Persistence\bin\Debug\netcoreapp2.1\Seirin.Persistence.runtimeconfig.json
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Persistence\bin\Debug\netcoreapp2.1\Seirin.Persistence.runtimeconfig.dev.json
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Persistence\obj\Debug\netcoreapp2.1\Seirin.Persistence.csprojAssemblyReference.cache
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Persistence\bin\Debug\netcoreapp2.1\Seirin.Persistence.pdb
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Persistence\bin\Debug\netcoreapp2.1\Seirin.Domain.dll
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Persistence\bin\Debug\netcoreapp2.1\Seirin.Domain.pdb
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Persistence\obj\Debug\netcoreapp2.1\Seirin.Persistence.csproj.CopyComplete
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Persistence\obj\Debug\netcoreapp2.1\Seirin.Persistence.dll
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Persistence\obj\Debug\netcoreapp2.1\Seirin.Persistence.pdb

@@ -1,0 +1,9 @@
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Domain\bin\Debug\netcoreapp2.1\Seirin.Domain.deps.json
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Domain\bin\Debug\netcoreapp2.1\Seirin.Domain.dll
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Domain\bin\Debug\netcoreapp2.1\Seirin.Domain.pdb
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Domain\obj\Debug\netcoreapp2.1\Seirin.Domain.csproj.CoreCompileInputs.cache
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Domain\obj\Debug\netcoreapp2.1\Seirin.Domain.AssemblyInfoInputs.cache
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Domain\obj\Debug\netcoreapp2.1\Seirin.Domain.AssemblyInfo.cs
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Domain\obj\Debug\netcoreapp2.1\Seirin.Domain.dll
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Domain\obj\Debug\netcoreapp2.1\Seirin.Domain.pdb
+C:\Users\liemn\source\repos\SeirinApp\Seirin.Domain\obj\Debug\netcoreapp2.1\Seirin.Domain.csprojAssemblyReference.cache
