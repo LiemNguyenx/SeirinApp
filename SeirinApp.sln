@@ -9,11 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{230F573A-5E60-485E-857E-4D1FB297F014}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seirin.Domain", "Seirin.Domain\Seirin.Domain.csproj", "{56F06C82-59FC-41DD-B35A-E6D96B96976B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seirin.Domain", "Seirin.Domain\Seirin.Domain.csproj", "{56F06C82-59FC-41DD-B35A-E6D96B96976B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seirin.Infrastructure", "Seirin.Infrastructure\Seirin.Infrastructure.csproj", "{400BC493-CA42-46EA-89C1-8F3EDC3F9437}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seirin.Infrastructure", "Seirin.Infrastructure\Seirin.Infrastructure.csproj", "{400BC493-CA42-46EA-89C1-8F3EDC3F9437}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seirin.Persistence", "Seirin.Persistence\Seirin.Persistence.csproj", "{F2189B17-F43E-4322-A656-3E275AE5FBEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seirin.Persistence", "Seirin.Persistence\Seirin.Persistence.csproj", "{F2189B17-F43E-4322-A656-3E275AE5FBEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seirin.Application", "Seirin.Application\Seirin.Application.csproj", "{67B5632D-0DF1-4FAF-9D62-066AEF1DDB5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentaion", "Presentaion", "{896E7969-8C42-466B-9A37-906E1304A4C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeirinAPI", "SeirinAPI\SeirinAPI.csproj", "{E46671DC-24FE-47D5-8D70-FC7A516C7D21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,14 @@ Global
 		{F2189B17-F43E-4322-A656-3E275AE5FBEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2189B17-F43E-4322-A656-3E275AE5FBEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2189B17-F43E-4322-A656-3E275AE5FBEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67B5632D-0DF1-4FAF-9D62-066AEF1DDB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B5632D-0DF1-4FAF-9D62-066AEF1DDB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B5632D-0DF1-4FAF-9D62-066AEF1DDB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B5632D-0DF1-4FAF-9D62-066AEF1DDB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E46671DC-24FE-47D5-8D70-FC7A516C7D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46671DC-24FE-47D5-8D70-FC7A516C7D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46671DC-24FE-47D5-8D70-FC7A516C7D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46671DC-24FE-47D5-8D70-FC7A516C7D21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +55,8 @@ Global
 		{56F06C82-59FC-41DD-B35A-E6D96B96976B} = {99C1B528-4191-4CEE-8897-F817795938A9}
 		{400BC493-CA42-46EA-89C1-8F3EDC3F9437} = {BB054433-2A9F-4E6D-BEB7-ACBDD1D03A39}
 		{F2189B17-F43E-4322-A656-3E275AE5FBEA} = {230F573A-5E60-485E-857E-4D1FB297F014}
+		{67B5632D-0DF1-4FAF-9D62-066AEF1DDB5C} = {99C1B528-4191-4CEE-8897-F817795938A9}
+		{E46671DC-24FE-47D5-8D70-FC7A516C7D21} = {896E7969-8C42-466B-9A37-906E1304A4C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C66D36E3-44FA-4ED6-AE5D-806D3E68C8EA}

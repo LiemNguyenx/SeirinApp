@@ -6,3 +6,12 @@ C:\Users\liemn\source\repos\SeirinApp\Seirin.Infrastructure\obj\Debug\netcoreapp
 C:\Users\liemn\source\repos\SeirinApp\Seirin.Infrastructure\obj\Debug\netcoreapp2.1\Seirin.Infrastructure.AssemblyInfo.cs
 C:\Users\liemn\source\repos\SeirinApp\Seirin.Infrastructure\obj\Debug\netcoreapp2.1\Seirin.Infrastructure.dll
 C:\Users\liemn\source\repos\SeirinApp\Seirin.Infrastructure\obj\Debug\netcoreapp2.1\Seirin.Infrastructure.pdb
+C:\Users\LiemNT\Desktop\SeirinApp\Seirin.Infrastructure\bin\Debug\netcoreapp2.1\Seirin.Infrastructure.deps.json
+C:\Users\LiemNT\Desktop\SeirinApp\Seirin.Infrastructure\bin\Debug\netcoreapp2.1\Seirin.Infrastructure.dll
+C:\Users\LiemNT\Desktop\SeirinApp\Seirin.Infrastructure\bin\Debug\netcoreapp2.1\Seirin.Infrastructure.pdb
+C:\Users\LiemNT\Desktop\SeirinApp\Seirin.Infrastructure\obj\Debug\netcoreapp2.1\Seirin.Infrastructure.csprojAssemblyReference.cache
+C:\Users\LiemNT\Desktop\SeirinApp\Seirin.Infrastructure\obj\Debug\netcoreapp2.1\Seirin.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\LiemNT\Desktop\SeirinApp\Seirin.Infrastructure\obj\Debug\netcoreapp2.1\Seirin.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\LiemNT\Desktop\SeirinApp\Seirin.Infrastructure\obj\Debug\netcoreapp2.1\Seirin.Infrastructure.AssemblyInfo.cs
+C:\Users\LiemNT\Desktop\SeirinApp\Seirin.Infrastructure\obj\Debug\netcoreapp2.1\Seirin.Infrastructure.dll
+C:\Users\LiemNT\Desktop\SeirinApp\Seirin.Infrastructure\obj\Debug\netcoreapp2.1\Seirin.Infrastructure.pdb
