@@ -12,20 +12,14 @@ namespace SeirinAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class UserController : BaseController
     {
-        private readonly IMediator _mediator;
-
-        public UserController(IMediator mediator)
-        {
-            _mediator = mediator;
-        }
 
         [HttpPost]
         public ActionResult<bool> Register(RegisterUser user)
         {
-            _mediator.Send(user);
-            return NoContent();
+            var rs = Mediator.Send(user);
+            return true;
         }
     }
 }

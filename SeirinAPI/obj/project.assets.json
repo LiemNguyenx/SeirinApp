@@ -4644,6 +4644,7 @@
         "dependencies": {
           "MediatR": "5.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "5.1.0",
+          "Seirin.Infrastructure": "1.0.0",
           "Seirin.Persistence": "1.0.0"
         },
         "compile": {
@@ -4661,6 +4662,16 @@
         },
         "runtime": {
           "bin/placeholder/Seirin.Domain.dll": {}
+        }
+      },
+      "Seirin.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Seirin.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Seirin.Infrastructure.dll": {}
         }
       },
       "Seirin.Persistence/1.0.0": {
@@ -12618,6 +12629,11 @@
       "path": "../Seirin.Domain/Seirin.Domain.csproj",
       "msbuildProject": "../Seirin.Domain/Seirin.Domain.csproj"
     },
+    "Seirin.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Seirin.Infrastructure/Seirin.Infrastructure.csproj",
+      "msbuildProject": "../Seirin.Infrastructure/Seirin.Infrastructure.csproj"
+    },
     "Seirin.Persistence/1.0.0": {
       "type": "project",
       "path": "../Seirin.Persistence/Seirin.Persistence.csproj",
@@ -12626,12 +12642,16 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "MediatR >= 5.1.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 5.1.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.4",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1",
       "Seirin.Application >= 1.0.0",
-      "Seirin.Domain >= 1.0.0"
+      "Seirin.Domain >= 1.0.0",
+      "Seirin.Persistence >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12669,6 +12689,9 @@
             },
             "C:\\Users\\LiemNT\\Desktop\\SeirinApp\\Seirin.Domain\\Seirin.Domain.csproj": {
               "projectPath": "C:\\Users\\LiemNT\\Desktop\\SeirinApp\\Seirin.Domain\\Seirin.Domain.csproj"
+            },
+            "C:\\Users\\LiemNT\\Desktop\\SeirinApp\\Seirin.Persistence\\Seirin.Persistence.csproj": {
+              "projectPath": "C:\\Users\\LiemNT\\Desktop\\SeirinApp\\Seirin.Persistence\\Seirin.Persistence.csproj"
             }
           }
         }
@@ -12682,6 +12705,14 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[5.1.0, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[5.1.0, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
@@ -12692,6 +12723,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.2, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[2.1.4, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",

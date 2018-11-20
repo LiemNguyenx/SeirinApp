@@ -20,6 +20,7 @@ namespace Seirin.Application.Users.Commands
         public async Task<bool> Handle(RegisterUser request, CancellationToken cancellationToken)
         {
             _context.Mst_Users.Add(new Domain.Entities.mst_user {
+                Id = request.Id,
                 mail = request.Email,
                 login_pass = request.Password,
                 name = request.Name

@@ -24,12 +24,16 @@
     ".NETCoreApp,Version=v2.1": {
       "SeirinAPI/1.0.0": {
         "dependencies": {
+          "MediatR": "5.1.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "5.1.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.4",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1",
           "Seirin.Application": "1.0.0",
-          "Seirin.Domain": "1.0.0"
+          "Seirin.Domain": "1.0.0",
+          "Seirin.Persistence": "1.0.0"
         },
         "runtime": {
           "SeirinAPI.dll": {}
@@ -671,6 +675,7 @@
         "dependencies": {
           "MediatR": "5.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "5.1.0",
+          "Seirin.Infrastructure": "1.0.0",
           "Seirin.Persistence": "1.0.0"
         },
         "runtime": {
@@ -686,6 +691,14 @@
         },
         "compile": {
           "Seirin.Domain.dll": {}
+        }
+      },
+      "Seirin.Infrastructure/1.0.0": {
+        "runtime": {
+          "Seirin.Infrastructure.dll": {}
+        },
+        "compile": {
+          "Seirin.Infrastructure.dll": {}
         }
       },
       "Seirin.Persistence/1.0.0": {
@@ -3828,6 +3841,11 @@
       "sha512": ""
     },
     "Seirin.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Seirin.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

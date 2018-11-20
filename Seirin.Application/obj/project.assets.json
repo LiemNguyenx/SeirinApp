@@ -941,6 +941,16 @@
           "bin/placeholder/Seirin.Domain.dll": {}
         }
       },
+      "Seirin.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Seirin.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Seirin.Infrastructure.dll": {}
+        }
+      },
       "Seirin.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -3537,6 +3547,11 @@
       "path": "../Seirin.Domain/Seirin.Domain.csproj",
       "msbuildProject": "../Seirin.Domain/Seirin.Domain.csproj"
     },
+    "Seirin.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Seirin.Infrastructure/Seirin.Infrastructure.csproj",
+      "msbuildProject": "../Seirin.Infrastructure/Seirin.Infrastructure.csproj"
+    },
     "Seirin.Persistence/1.0.0": {
       "type": "project",
       "path": "../Seirin.Persistence/Seirin.Persistence.csproj",
@@ -3548,6 +3563,7 @@
       "MediatR >= 5.1.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 5.1.0",
       "Microsoft.NETCore.App >= 2.1.0",
+      "Seirin.Infrastructure >= 1.0.0",
       "Seirin.Persistence >= 1.0.0"
     ]
   },
@@ -3581,6 +3597,9 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "C:\\Users\\LiemNT\\Desktop\\SeirinApp\\Seirin.Infrastructure\\Seirin.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\LiemNT\\Desktop\\SeirinApp\\Seirin.Infrastructure\\Seirin.Infrastructure.csproj"
+            },
             "C:\\Users\\LiemNT\\Desktop\\SeirinApp\\Seirin.Persistence\\Seirin.Persistence.csproj": {
               "projectPath": "C:\\Users\\LiemNT\\Desktop\\SeirinApp\\Seirin.Persistence\\Seirin.Persistence.csproj"
             }

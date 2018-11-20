@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Seirin.Infrastructure\Seirin.Infrastructure.csproj" />
     <ProjectReference Include="..\Seirin.Persistence\Seirin.Persistence.csproj" />
   </ItemGroup>
 
